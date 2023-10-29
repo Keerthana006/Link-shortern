@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Link Shortener</title>
+    <link rel="stylesheet" href="s2.css">
+</head>
+<body>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container">
+            <h1><span>Enter your link to shorten</span></h1>
+            <div class="field">
+                <input type="text" id="url" placeholder="Paste your link" autocomplete="off">
+            <p>ShortURL offers a no-cost solution to abbreviate extended web links into compact, easily shareable URLs</p>
+                <a onclick="shortenlink()" class="shorten link">shorten link</a>
+            </div>
+            <div id="result"></div>
+        </div>
+    </section>
+
+    <script src="s3.js"></script>
+</body>
+</html>
+
